@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OurNDPSongs</string>
+    <string name="update">update</string>
+    <string name="delete">delete</string>
+    <string name="cancel">cancel</string>
+    <string name="title">title</string>
+    <string name="hint_title">hint_title</string>
+    <string name="singers">singers</string>
+    <string name="hint_singers">hint_singers</string>
+    <string name="year">year</string>
+    <string name="hint_year">hint_year</string>
+    <string name="stars">stars</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <string name="four">four</string>
+    <string name="five">five</string>
+    <string name="btnInsert">btnInsert</string>
+    <string name="btnShowList">btnShowList</string>
+    <string name="btn5Stars">btn5Stars</string>
+</resources>
