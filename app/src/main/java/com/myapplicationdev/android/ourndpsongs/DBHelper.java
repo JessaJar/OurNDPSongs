@@ -1,4 +1,4 @@
-package com.myapplicationdev.android.p05_ndpsongs;
+package com.myapplicationdev.android.ourndpsongs;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,8 +8,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import java.util.ArrayList;
-
-import androidx.annotation.NonNull;
 
 public class DBHelper extends SQLiteOpenHelper {
 
@@ -64,7 +62,7 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     public ArrayList<Song> getAllSongs() {
-        ArrayList<Song> songslist = new ArrayList<Song>();
+        ArrayList<com.myapplicationdev.android.ourndpsongs.Song> songslist = new ArrayList<Song>();
         String selectQuery = "SELECT " + COLUMN_ID + ","
                 + COLUMN_TITLE + "," + COLUMN_SINGERS + ","
                 + COLUMN_YEAR + ","

@@ -18,4 +18,7 @@
     <string name="btnInsert">btnInsert</string>
     <string name="btnShowList">btnShowList</string>
     <string name="btn5Stars">btn5Stars</string>
+    <string name="id">id</string>
+    <string name="title_activity_main">Add Song</string>
+    <string name="title_activity_third">Update</string>
 </resources>

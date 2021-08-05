@@ -1,4 +1,4 @@
-package com.myapplicationdev.android.p05_ndpsongs;
+package com.myapplicationdev.android.ourndpsongs;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,14 +18,13 @@ public class SecondActivity extends AppCompatActivity {
     ListView lv;
     ArrayList<Song> songList;
     //ArrayAdapter<Song> adapter;
-    CustomAdapter adapter;
     String moduleCode;
     Button btn5Stars;
 
     ArrayList<String> years;
     Spinner spinner;
     ArrayAdapter<String> spinnerAdapter;
-
+    CustomAdapter adapter;
     @Override
     protected void onResume() {
         super.onResume();
@@ -37,9 +36,6 @@ public class SecondActivity extends AppCompatActivity {
         years.clear();
         years.addAll(dbh.getYears());
         spinnerAdapter.notifyDataSetChanged();
-
-        btn5Stars.performClick();
-
     }
 
     @Override

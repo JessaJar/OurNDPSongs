@@ -1,4 +1,4 @@
-package com.myapplicationdev.android.p05_ndpsongs;
+package com.myapplicationdev.android.ourndpsongs;
 
 import java.io.Serializable;
 
@@ -18,6 +18,7 @@ public class Song implements Serializable {
         this.singers = singers;
         this.yearReleased = yearReleased;
         this.stars = stars;
+
     }
 
     public int getId() {
@@ -72,13 +73,8 @@ public class Song implements Serializable {
         for(int i = 0; i < stars; i++){
             starsString += "*";
         }
-        return starsString;
-    }
+        return title + "\n" + singers + " - " + yearReleased + "\n" + starsString;
 
-    public String toStringYear(){
-        String year = "";
-        year = String.valueOf(getYearReleased());
-        return year;
     }
-
 }
+
